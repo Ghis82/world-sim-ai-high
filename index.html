@@ -1,0 +1,43 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="data:,"><title>WORLD SIM AI HIGH</title>  <script type="module" crossorigin src="/world-sim-ai-high/assets/index-Cpi1u9bQ.js"></script>
+  <link rel="stylesheet" crossorigin href="/world-sim-ai-high/assets/index-CduYPnHV.css">
+</head>
+<body>
+<section id="home" class="home"><div class="card">
+ <h1>WORLD SIM <span>AI HIGH</span></h1><p class="sub">Simulation de civilisations futuristes</p>
+ <h3>Nouvelle partie</h3>
+ <label>Nom du monde <input id="worldName" value="Nouvelle Aurore"></label>
+ <label>Année de départ <input id="startYear" type="number" value="2027" min="2000" max="3000"></label>
+ <label>Graine aléatoire (événements reproductibles) <input id="seed" type="number" min="0"></label>
+ <label class="chk"><input id="withDemo" type="checkbox" checked> Ville de démonstration 2027</label>
+ <label class="chk"><input id="withNeo" type="checkbox"> Quartier prototype « Promenade Néo »</label>
+ <label class="chk"><input id="withCb" type="checkbox"> Quartier « city-builder » (kit de tours + décor Kenney)</label>
+ <button id="btnNew" class="primary">Créer le monde</button>
+ <h3>Charger une partie</h3><div id="homeSlots" class="slots"></div>
+ <label class="file">Importer un fichier JSON <input id="homeImport" type="file" accept=".json,application/json"></label>
+ <p id="homeMsg" class="msg"></p>
+</div></section>
+<section id="game" class="game hidden">
+ <header class="topbar"><div class="brand">WORLD SIM <span>AI HIGH</span></div><div id="tbWorld" class="world"></div><div id="tbDate" class="date"></div>
+  <div class="time"><button id="btnPause" title="Pause / reprise (Espace)"></button><span id="speeds"></span></div>
+  <div class="menu"><button id="btnEvents">⚠ Événements <span id="evBadge" class="badge"></span></button><button id="btnTech">🔬 Technologies</button><button id="btnMarket">💱 Marché</button><button id="btnRobots">🤖 Robots</button><button id="btnOverlay" title="Superposition du réseau routier : vert = raccordé, rouge = isolé">🛣 Réseau</button><button id="btnLabels" class="on" title="Afficher/masquer les étiquettes 3D">🏷 Étiquettes</button><button id="btnSaves">💾 Sauvegardes</button><button id="btnSettings">⚙ Paramètres</button></div></header>
+ <div id="dash" class="dash"></div>
+ <aside class="build"><h2>Construction</h2><div id="buildList"></div><p class="hint">Clic : placer · R : tourner · Échap : annuler</p></aside>
+ <main id="viewport" class="viewport"><div id="toast" class="toast"></div><div id="netWarn" class="banner hidden"></div></main>
+ <aside class="info"><h2>Sélection</h2><div id="infoPanel"><p class="muted">Cliquez sur un bâtiment.</p></div><h2>Journal</h2><ul id="log" class="log"></ul></aside>
+</section>
+<dialog id="dlgSaves"><h2>Sauvegardes</h2><div class="row"><input id="slotName" placeholder="Nom de l'emplacement"><button id="btnSaveSlot" class="primary">Sauvegarder</button></div>
+ <div id="slotList" class="slots"></div><div class="row"><button id="btnExport">Exporter JSON</button><label class="file">Importer JSON <input id="gameImport" type="file" accept=".json"></label></div>
+ <p id="saveMsg" class="msg"></p><button class="close" data-close>Fermer</button></dialog>
+<dialog id="dlgRobots"><h2>Robots autonomes</h2><div id="robotPanel"></div><button class="close" data-close>Fermer</button></dialog>
+<dialog id="dlgTech" class="wide"><h2>Arbre technologique</h2><div id="techPanel"></div><button class="close" data-close>Fermer</button></dialog>
+<dialog id="dlgEvents" class="wide"><h2>Événements et catastrophes</h2><div id="eventPanel"></div><button class="close" data-close>Fermer</button></dialog>
+<dialog id="dlgMarket" class="wide"><h2>Marché — importations / exportations</h2><div id="marketPanel"></div><button class="close" data-close>Fermer</button></dialog>
+<dialog id="dlgSettings"><h2>Paramètres</h2>
+ <label>Taux d'imposition <input id="setTax" type="range" min="0" max="2" step="0.1"> <span id="setTaxV"></span></label>
+ <label>Secondes réelles par jour simulé (×1) <input id="setSpd" type="number" min="0.1" max="10" step="0.1"></label>
+ <label class="chk"><input id="setDisasters" type="checkbox"> Catastrophes activées (les opportunités restent actives)</label>
+ <label>Cycle jour/nuit <select id="setDayNight"><option value="auto">Automatique (24 h = 10 jours simulés)</option><option value="day">Toujours jour</option><option value="night">Toujours nuit</option></select></label>
+ <label class="chk"><input id="setCars" type="checkbox"> Feux de voitures animés (nuit)</label>
+ <label>Qualité graphique <select id="setQuality"><option value="bas">Basse (LOD proche, résolution 75 %)</option><option value="moyen">Moyenne (défaut)</option><option value="haut">Haute (verre PBR, LOD lointain, résolution ×2)</option></select></label>
+ <label class="chk"><input id="setAuto" type="checkbox"> Sauvegarde automatique (toutes les 30 s)</label>
+ <button id="btnQuit">Retour à l'accueil</button><button class="close" data-close>Fermer</button></dialog></body></html>
