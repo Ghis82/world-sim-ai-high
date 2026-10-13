@@ -1,5 +1,5 @@
-<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="data:,"><title>WORLD SIM AI HIGH</title>  <script type="module" crossorigin src="/world-sim-ai-high/assets/index-BltPGgYM.js"></script>
-  <link rel="stylesheet" crossorigin href="/world-sim-ai-high/assets/index-CduYPnHV.css">
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="data:,"><title>WORLD SIM AI HIGH</title>  <script type="module" crossorigin src="/world-sim-ai-high/assets/index-B9u_9LVw.js"></script>
+  <link rel="stylesheet" crossorigin href="/world-sim-ai-high/assets/index-CcrTvYwx.css">
 </head>
 <body>
 <section id="home" class="home"><div class="card">
@@ -19,7 +19,8 @@
 <section id="game" class="game hidden">
  <header class="topbar"><div class="brand">WORLD SIM <span>AI HIGH</span></div><div id="tbWorld" class="world"></div><div id="tbDate" class="date"></div>
   <div class="time"><button id="btnPause" title="Pause / reprise (Espace)"></button><span id="speeds"></span></div>
-  <div class="menu"><button id="btnEvents">⚠ Événements <span id="evBadge" class="badge"></span></button><button id="btnTech">🔬 Technologies</button><button id="btnMarket">💱 Marché</button><button id="btnRobots">🤖 Robots</button><button id="btnOverlay" title="Superposition du réseau routier : vert = raccordé, rouge = isolé">🛣 Réseau</button><button id="btnLabels" class="on" title="Afficher/masquer les étiquettes 3D">🏷 Étiquettes</button><button id="btnSaves">💾 Sauvegardes</button><button id="btnSettings">⚙ Paramètres</button></div></header>
+  <button id="btnMenu" class="mtoggle" aria-expanded="false" aria-controls="mainMenu" title="Menu">☰ Menu</button>
+  <div class="menu" id="mainMenu"><button id="btnEvents">⚠ Événements <span id="evBadge" class="badge"></span></button><button id="btnTech">🔬 Technologies</button><button id="btnMarket">💱 Marché</button><button id="btnRobots">🤖 Robots</button><button id="btnOverlay" title="Superposition du réseau routier : vert = raccordé, rouge = isolé">🛣 Réseau</button><button id="btnLabels" class="on" title="Afficher/masquer les étiquettes 3D">🏷 Étiquettes</button><button id="btnSaves">💾 Sauvegardes</button><button id="btnSettings">⚙ Paramètres</button><button id="btnHome" title="Retour à l'accueil">🏠 Retour à l'accueil</button></div></header>
  <div id="dash" class="dash"></div>
  <aside class="build"><h2>Construction</h2><div id="buildList"></div><p class="hint">Clic : placer · R : tourner · Échap : annuler</p></aside>
  <main id="viewport" class="viewport"><div id="toast" class="toast"></div><div id="netWarn" class="banner hidden"></div></main>
