@@ -1,5 +1,5 @@
-<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="data:,"><title>WORLD SIM AI HIGH</title>  <script type="module" crossorigin src="/world-sim-ai-high/assets/index-Clw7DzYe.js"></script>
-  <link rel="stylesheet" crossorigin href="/world-sim-ai-high/assets/index-CcrTvYwx.css">
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="data:,"><title>WORLD SIM AI HIGH</title>  <script type="module" crossorigin src="/world-sim-ai-high/assets/index-yRpbClIt.js"></script>
+  <link rel="stylesheet" crossorigin href="/world-sim-ai-high/assets/index-DQ0IjUHe.css">
 </head>
 <body>
 <section id="home" class="home"><div class="card">
@@ -21,7 +21,7 @@
  <header class="topbar"><div class="brand">WORLD SIM <span>AI HIGH</span></div><div id="tbWorld" class="world"></div><div id="tbDate" class="date"></div>
   <div class="time"><button id="btnPause" title="Pause / reprise (Espace)"></button><span id="speeds"></span></div>
   <button id="btnMenu" class="mtoggle" aria-expanded="false" aria-controls="mainMenu" title="Menu">☰ Menu</button>
-  <div class="menu" id="mainMenu"><button id="btnEvents">⚠ Événements <span id="evBadge" class="badge"></span></button><button id="btnTech">🔬 Technologies</button><button id="btnMarket">💱 Marché</button><button id="btnRobots">🤖 Robots</button><button id="btnOverlay" title="Superposition du réseau routier : vert = raccordé, rouge = isolé">🛣 Réseau</button><button id="btnLabels" class="on" title="Afficher/masquer les étiquettes 3D">🏷 Étiquettes</button><button id="btnSaves">💾 Sauvegardes</button><button id="btnSettings">⚙ Paramètres</button><button id="btnHome" title="Retour à l'accueil">🏠 Retour à l'accueil</button></div></header>
+  <div class="menu" id="mainMenu"><button id="btnSound" title="Son activé / coupé">🔊 Son</button><button id="btnEvents">⚠ Événements <span id="evBadge" class="badge"></span></button><button id="btnTech">🔬 Technologies</button><button id="btnMarket">💱 Marché</button><button id="btnRobots">🤖 Robots</button><button id="btnOverlay" title="Superposition du réseau routier : vert = raccordé, rouge = isolé">🛣 Réseau</button><button id="btnLabels" class="on" title="Afficher/masquer les étiquettes 3D">🏷 Étiquettes</button><button id="btnSaves">💾 Sauvegardes</button><button id="btnSettings">⚙ Paramètres</button><button id="btnHome" title="Retour à l'accueil">🏠 Retour à l'accueil</button></div></header>
  <div id="dash" class="dash"></div>
  <aside class="build"><h2>Construction</h2><div id="buildList"></div><p class="hint">Clic : placer · R : tourner · Échap : annuler</p></aside>
  <main id="viewport" class="viewport"><div id="toast" class="toast"></div><div id="netWarn" class="banner hidden"></div></main>
@@ -41,5 +41,12 @@
  <label>Cycle jour/nuit <select id="setDayNight"><option value="auto">Automatique (24 h = 10 jours simulés)</option><option value="day">Toujours jour</option><option value="night">Toujours nuit</option></select></label>
  <label class="chk"><input id="setCars" type="checkbox"> Feux de voitures animés (nuit)</label>
  <label>Qualité graphique <select id="setQuality"><option value="bas">Basse (LOD proche, résolution 75 %)</option><option value="moyen">Moyenne (défaut)</option><option value="haut">Haute (verre PBR, LOD lointain, résolution ×2)</option></select></label>
+ <fieldset class="sound"><legend>Son</legend>
+ <label class="chk"><input id="sndOn" type="checkbox"> Son activé</label>
+ <label class="chk"><input id="sndMusic" type="checkbox"> Musique</label>
+ <label>Volume général <input id="sndMaster" type="range" min="0" max="1" step="0.05"></label>
+ <label>Musique <input id="sndMusicVol" type="range" min="0" max="1" step="0.05"></label>
+ <label>Effets <input id="sndSfx" type="range" min="0" max="1" step="0.05"></label>
+ <label>Ambiances <input id="sndAmb" type="range" min="0" max="1" step="0.05"></label></fieldset>
  <label class="chk"><input id="setAuto" type="checkbox"> Sauvegarde automatique (toutes les 30 s)</label>
  <button id="btnQuit">Retour à l'accueil</button><button class="close" data-close>Fermer</button></dialog></body></html>
