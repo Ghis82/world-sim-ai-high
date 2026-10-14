@@ -1,6 +1,6 @@
 {
  "generated": "2026-10-14",
- "count": 56,
+ "count": 62,
  "models": [
   {
    "id": "car_pod",
@@ -161,6 +161,25 @@
    "source": "tripo"
   },
   {
+   "id": "human_cadre",
+   "category": "personnage",
+   "url": "models/human_cadre.glb",
+   "tiers": {
+    "base": "human_cadre.glb",
+    "md": "human_cadre_md.glb",
+    "hd": "human_cadre_hd.glb"
+   },
+   "bytes": {
+    "base": 312168,
+    "md": 522324,
+    "hd": 1089640
+   },
+   "animations": [
+    "walk"
+   ],
+   "source": "tripo"
+  },
+  {
    "id": "human_citoyen_homme",
    "category": "personnage",
    "url": "models/human_citoyen_homme.glb",
@@ -173,6 +192,101 @@
     "base": 310132,
     "md": 529080,
     "hd": 1150080
+   },
+   "animations": [
+    "walk"
+   ],
+   "source": "tripo"
+  },
+  {
+   "id": "human_citoyenne_femme",
+   "category": "personnage",
+   "url": "models/human_citoyenne_femme.glb",
+   "tiers": {
+    "base": "human_citoyenne_femme.glb",
+    "md": "human_citoyenne_femme_md.glb",
+    "hd": "human_citoyenne_femme_hd.glb"
+   },
+   "bytes": {
+    "base": 306204,
+    "md": 539440,
+    "hd": 1158556
+   },
+   "animations": [
+    "walk"
+   ],
+   "source": "tripo"
+  },
+  {
+   "id": "human_etudiant",
+   "category": "personnage",
+   "url": "models/human_etudiant.glb",
+   "tiers": {
+    "base": "human_etudiant.glb",
+    "md": "human_etudiant_md.glb",
+    "hd": "human_etudiant_hd.glb"
+   },
+   "bytes": {
+    "base": 333764,
+    "md": 587380,
+    "hd": 1281624
+   },
+   "animations": [
+    "walk"
+   ],
+   "source": "tripo"
+  },
+  {
+   "id": "human_medecin",
+   "category": "personnage",
+   "url": "models/human_medecin.glb",
+   "tiers": {
+    "base": "human_medecin.glb",
+    "md": "human_medecin_md.glb",
+    "hd": "human_medecin_hd.glb"
+   },
+   "bytes": {
+    "base": 334108,
+    "md": 556896,
+    "hd": 1211044
+   },
+   "animations": [
+    "walk"
+   ],
+   "source": "tripo"
+  },
+  {
+   "id": "human_ouvrier",
+   "category": "personnage",
+   "url": "models/human_ouvrier.glb",
+   "tiers": {
+    "base": "human_ouvrier.glb",
+    "md": "human_ouvrier_md.glb",
+    "hd": "human_ouvrier_hd.glb"
+   },
+   "bytes": {
+    "base": 322904,
+    "md": 564272,
+    "hd": 1251144
+   },
+   "animations": [
+    "walk"
+   ],
+   "source": "tripo"
+  },
+  {
+   "id": "human_technicien",
+   "category": "personnage",
+   "url": "models/human_technicien.glb",
+   "tiers": {
+    "base": "human_technicien.glb",
+    "md": "human_technicien_md.glb",
+    "hd": "human_technicien_hd.glb"
+   },
+   "bytes": {
+    "base": 355344,
+    "md": 636056,
+    "hd": 1446936
    },
    "animations": [
     "walk"
