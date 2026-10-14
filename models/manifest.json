@@ -1,6 +1,6 @@
 {
  "generated": "2026-10-14",
- "count": 62,
+ "count": 61,
  "models": [
   {
    "id": "car_pod",
@@ -292,19 +292,6 @@
     "walk"
    ],
    "source": "tripo"
-  },
-  {
-   "id": "people",
-   "category": "personnage",
-   "url": "models/people.glb",
-   "tiers": {
-    "base": "people.glb"
-   },
-   "bytes": {
-    "base": 541984
-   },
-   "animations": [],
-   "source": "autre"
   },
   {
    "id": "pilot_tex",
