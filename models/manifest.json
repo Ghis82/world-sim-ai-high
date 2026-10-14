@@ -1,7 +1,35 @@
 {
  "generated": "2026-10-14",
- "count": 61,
+ "count": 75,
  "models": [
+  {
+   "id": "car_citadine",
+   "category": "vehicule",
+   "url": "models/car_citadine.glb",
+   "tiers": {
+    "base": "car_citadine.glb",
+    "md": "car_citadine_md.glb",
+    "hd": "car_citadine_hd.glb"
+   },
+   "bytes": {
+    "base": 270708,
+    "md": 562472,
+    "hd": 1389944
+   },
+   "animations": [],
+   "realSize_m": {
+    "l": 4.1
+   },
+   "variants": [
+    "base",
+    "sombre",
+    "rouge",
+    "bleu",
+    "jaune",
+    "vert"
+   ],
+   "source": "tripo"
+  },
   {
    "id": "car_pod",
    "category": "vehicule",
@@ -17,6 +45,34 @@
     "hd": 1619828
    },
    "animations": [],
+   "variants": [
+    "base",
+    "sombre",
+    "rouge",
+    "bleu",
+    "jaune",
+    "vert"
+   ],
+   "source": "tripo"
+  },
+  {
+   "id": "car_police",
+   "category": "vehicule",
+   "url": "models/car_police.glb",
+   "tiers": {
+    "base": "car_police.glb",
+    "md": "car_police_md.glb",
+    "hd": "car_police_hd.glb"
+   },
+   "bytes": {
+    "base": 252752,
+    "md": 529524,
+    "hd": 1286376
+   },
+   "animations": [],
+   "realSize_m": {
+    "l": 4.8
+   },
    "source": "tripo"
   },
   {
@@ -34,6 +90,70 @@
     "hd": 698556
    },
    "animations": [],
+   "variants": [
+    "base",
+    "sombre",
+    "rouge",
+    "bleu",
+    "jaune",
+    "vert"
+   ],
+   "source": "tripo"
+  },
+  {
+   "id": "car_sportive",
+   "category": "vehicule",
+   "url": "models/car_sportive.glb",
+   "tiers": {
+    "base": "car_sportive.glb",
+    "md": "car_sportive_md.glb",
+    "hd": "car_sportive_hd.glb"
+   },
+   "bytes": {
+    "base": 268972,
+    "md": 556092,
+    "hd": 1361788
+   },
+   "animations": [],
+   "realSize_m": {
+    "l": 4.7
+   },
+   "variants": [
+    "base",
+    "sombre",
+    "rouge",
+    "bleu",
+    "jaune",
+    "vert"
+   ],
+   "source": "tripo"
+  },
+  {
+   "id": "car_suv",
+   "category": "vehicule",
+   "url": "models/car_suv.glb",
+   "tiers": {
+    "base": "car_suv.glb",
+    "md": "car_suv_md.glb",
+    "hd": "car_suv_hd.glb"
+   },
+   "bytes": {
+    "base": 263608,
+    "md": 542460,
+    "hd": 1329164
+   },
+   "animations": [],
+   "realSize_m": {
+    "l": 4.7
+   },
+   "variants": [
+    "base",
+    "sombre",
+    "rouge",
+    "bleu",
+    "jaune",
+    "vert"
+   ],
    "source": "tripo"
   },
   {
@@ -967,6 +1087,188 @@
    "source": "tripo"
   },
   {
+   "id": "veg_aquatiques",
+   "category": "vegetation",
+   "url": "models/veg_aquatiques.glb",
+   "tiers": {
+    "base": "veg_aquatiques.glb",
+    "md": "veg_aquatiques_md.glb",
+    "hd": "veg_aquatiques_hd.glb"
+   },
+   "bytes": {
+    "base": 262896,
+    "md": 513132,
+    "hd": 1325684
+   },
+   "animations": [],
+   "realSize_m": {
+    "h": 1.3
+   },
+   "variants": [
+    "base",
+    "sec",
+    "printemps",
+    "pourpre"
+   ],
+   "source": "tripo"
+  },
+  {
+   "id": "veg_broussailles",
+   "category": "vegetation",
+   "url": "models/veg_broussailles.glb",
+   "tiers": {
+    "base": "veg_broussailles.glb",
+    "md": "veg_broussailles_md.glb",
+    "hd": "veg_broussailles_hd.glb"
+   },
+   "bytes": {
+    "base": 263460,
+    "md": 542712,
+    "hd": 1402068
+   },
+   "animations": [],
+   "realSize_m": {
+    "h": 1.1
+   },
+   "variants": [
+    "base",
+    "sec",
+    "printemps",
+    "pourpre"
+   ],
+   "source": "tripo"
+  },
+  {
+   "id": "veg_fleurs",
+   "category": "vegetation",
+   "url": "models/veg_fleurs.glb",
+   "tiers": {
+    "base": "veg_fleurs.glb",
+    "md": "veg_fleurs_md.glb",
+    "hd": "veg_fleurs_hd.glb"
+   },
+   "bytes": {
+    "base": 312960,
+    "md": 702296,
+    "hd": 1917424
+   },
+   "animations": [],
+   "realSize_m": {
+    "h": 0.7
+   },
+   "variants": [
+    "base",
+    "sec",
+    "printemps",
+    "pourpre"
+   ],
+   "source": "tripo"
+  },
+  {
+   "id": "veg_grimpante",
+   "category": "vegetation",
+   "url": "models/veg_grimpante.glb",
+   "tiers": {
+    "base": "veg_grimpante.glb",
+    "md": "veg_grimpante_md.glb",
+    "hd": "veg_grimpante_hd.glb"
+   },
+   "bytes": {
+    "base": 258948,
+    "md": 556216,
+    "hd": 1514072
+   },
+   "animations": [],
+   "realSize_m": {
+    "h": 1.8
+   },
+   "variants": [
+    "base",
+    "sec",
+    "printemps",
+    "pourpre"
+   ],
+   "source": "tripo"
+  },
+  {
+   "id": "veg_herbes_hautes",
+   "category": "vegetation",
+   "url": "models/veg_herbes_hautes.glb",
+   "tiers": {
+    "base": "veg_herbes_hautes.glb",
+    "md": "veg_herbes_hautes_md.glb",
+    "hd": "veg_herbes_hautes_hd.glb"
+   },
+   "bytes": {
+    "base": 271456,
+    "md": 518348,
+    "hd": 1318500
+   },
+   "animations": [],
+   "realSize_m": {
+    "h": 1.2
+   },
+   "variants": [
+    "base",
+    "sec",
+    "printemps",
+    "pourpre"
+   ],
+   "source": "tripo"
+  },
+  {
+   "id": "veg_jardiniere",
+   "category": "vegetation",
+   "url": "models/veg_jardiniere.glb",
+   "tiers": {
+    "base": "veg_jardiniere.glb",
+    "md": "veg_jardiniere_md.glb",
+    "hd": "veg_jardiniere_hd.glb"
+   },
+   "bytes": {
+    "base": 244016,
+    "md": 482028,
+    "hd": 1099592
+   },
+   "animations": [],
+   "realSize_m": {
+    "l": 2.4
+   },
+   "variants": [
+    "base",
+    "sec",
+    "printemps",
+    "pourpre"
+   ],
+   "source": "tripo"
+  },
+  {
+   "id": "veg_tropicales",
+   "category": "vegetation",
+   "url": "models/veg_tropicales.glb",
+   "tiers": {
+    "base": "veg_tropicales.glb",
+    "md": "veg_tropicales_md.glb",
+    "hd": "veg_tropicales_hd.glb"
+   },
+   "bytes": {
+    "base": 240612,
+    "md": 502232,
+    "hd": 1245412
+   },
+   "animations": [],
+   "realSize_m": {
+    "h": 1.4
+   },
+   "variants": [
+    "base",
+    "sec",
+    "printemps",
+    "pourpre"
+   ],
+   "source": "tripo"
+  },
+  {
    "id": "veh_bus",
    "category": "vehicule",
    "url": "models/veh_bus.glb",
@@ -981,6 +1283,98 @@
     "hd": 974700
    },
    "animations": [],
+   "variants": [
+    "base",
+    "sombre",
+    "rouge",
+    "bleu",
+    "jaune",
+    "vert"
+   ],
+   "source": "tripo"
+  },
+  {
+   "id": "veh_moto_futur",
+   "category": "vehicule",
+   "url": "models/veh_moto_futur.glb",
+   "tiers": {
+    "base": "veh_moto_futur.glb",
+    "md": "veh_moto_futur_md.glb",
+    "hd": "veh_moto_futur_hd.glb"
+   },
+   "bytes": {
+    "base": 310252,
+    "md": 649636,
+    "hd": 1665196
+   },
+   "animations": [],
+   "realSize_m": {
+    "l": 2.1
+   },
+   "variants": [
+    "base",
+    "sombre",
+    "rouge",
+    "bleu",
+    "jaune",
+    "vert"
+   ],
+   "source": "tripo"
+  },
+  {
+   "id": "veh_moto_legere",
+   "category": "vehicule",
+   "url": "models/veh_moto_legere.glb",
+   "tiers": {
+    "base": "veh_moto_legere.glb",
+    "md": "veh_moto_legere_md.glb",
+    "hd": "veh_moto_legere_hd.glb"
+   },
+   "bytes": {
+    "base": 270216,
+    "md": 527092,
+    "hd": 1209164
+   },
+   "animations": [],
+   "realSize_m": {
+    "l": 1.9
+   },
+   "variants": [
+    "base",
+    "sombre",
+    "rouge",
+    "bleu",
+    "jaune",
+    "vert"
+   ],
+   "source": "tripo"
+  },
+  {
+   "id": "veh_scooter",
+   "category": "vehicule",
+   "url": "models/veh_scooter.glb",
+   "tiers": {
+    "base": "veh_scooter.glb",
+    "md": "veh_scooter_md.glb",
+    "hd": "veh_scooter_hd.glb"
+   },
+   "bytes": {
+    "base": 282820,
+    "md": 571264,
+    "hd": 1381936
+   },
+   "animations": [],
+   "realSize_m": {
+    "l": 2
+   },
+   "variants": [
+    "base",
+    "sombre",
+    "rouge",
+    "bleu",
+    "jaune",
+    "vert"
+   ],
    "source": "tripo"
   },
   {
@@ -998,6 +1392,14 @@
     "hd": 1254860
    },
    "animations": [],
+   "variants": [
+    "base",
+    "sombre",
+    "rouge",
+    "bleu",
+    "jaune",
+    "vert"
+   ],
    "source": "tripo"
   },
   {
@@ -1015,6 +1417,14 @@
     "hd": 587100
    },
    "animations": [],
+   "variants": [
+    "base",
+    "sombre",
+    "rouge",
+    "bleu",
+    "jaune",
+    "vert"
+   ],
    "source": "tripo"
   }
  ]
