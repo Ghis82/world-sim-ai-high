@@ -1,0 +1,920 @@
+{
+ "generated": "2026-10-14",
+ "count": 56,
+ "models": [
+  {
+   "id": "car_pod",
+   "category": "vehicule",
+   "url": "models/car_pod.glb",
+   "tiers": {
+    "base": "car_pod.glb",
+    "md": "car_pod_md.glb",
+    "hd": "car_pod_hd.glb"
+   },
+   "bytes": {
+    "base": 252420,
+    "md": 603168,
+    "hd": 1619828
+   },
+   "animations": [],
+   "source": "tripo"
+  },
+  {
+   "id": "car_sport",
+   "category": "vehicule",
+   "url": "models/car_sport.glb",
+   "tiers": {
+    "base": "car_sport.glb",
+    "md": "car_sport_md.glb",
+    "hd": "car_sport_hd.glb"
+   },
+   "bytes": {
+    "base": 187288,
+    "md": 316924,
+    "hd": 698556
+   },
+   "animations": [],
+   "source": "tripo"
+  },
+  {
+   "id": "cb_kenney",
+   "category": "kit_ville",
+   "url": "models/cb_kenney.glb",
+   "tiers": {
+    "base": "cb_kenney.glb"
+   },
+   "bytes": {
+    "base": 1357044
+   },
+   "animations": [],
+   "source": "autre"
+  },
+  {
+   "id": "cb_series",
+   "category": "kit_ville",
+   "url": "models/cb_series.glb",
+   "tiers": {
+    "base": "cb_series.glb"
+   },
+   "bytes": {
+    "base": 801628
+   },
+   "animations": [],
+   "source": "autre"
+  },
+  {
+   "id": "cb_towers",
+   "category": "kit_ville",
+   "url": "models/cb_towers.glb",
+   "tiers": {
+    "base": "cb_towers.glb"
+   },
+   "bytes": {
+    "base": 198568
+   },
+   "animations": [],
+   "source": "autre"
+  },
+  {
+   "id": "drone_1",
+   "category": "drone",
+   "url": "models/drone_1.glb",
+   "tiers": {
+    "base": "drone_1.glb",
+    "md": "drone_1_md.glb",
+    "hd": "drone_1_hd.glb"
+   },
+   "bytes": {
+    "base": 234940,
+    "md": 391836,
+    "hd": 870916
+   },
+   "animations": [],
+   "source": "tripo"
+  },
+  {
+   "id": "drone_2",
+   "category": "drone",
+   "url": "models/drone_2.glb",
+   "tiers": {
+    "base": "drone_2.glb",
+    "md": "drone_2_md.glb",
+    "hd": "drone_2_hd.glb"
+   },
+   "bytes": {
+    "base": 241752,
+    "md": 400256,
+    "hd": 883664
+   },
+   "animations": [],
+   "source": "tripo"
+  },
+  {
+   "id": "drone_4",
+   "category": "drone",
+   "url": "models/drone_4.glb",
+   "tiers": {
+    "base": "drone_4.glb",
+    "md": "drone_4_md.glb",
+    "hd": "drone_4_hd.glb"
+   },
+   "bytes": {
+    "base": 223428,
+    "md": 383356,
+    "hd": 890908
+   },
+   "animations": [],
+   "source": "tripo"
+  },
+  {
+   "id": "drone_6",
+   "category": "drone",
+   "url": "models/drone_6.glb",
+   "tiers": {
+    "base": "drone_6.glb",
+    "md": "drone_6_md.glb",
+    "hd": "drone_6_hd.glb"
+   },
+   "bytes": {
+    "base": 259736,
+    "md": 410052,
+    "hd": 865588
+   },
+   "animations": [],
+   "source": "tripo"
+  },
+  {
+   "id": "drone_8",
+   "category": "drone",
+   "url": "models/drone_8.glb",
+   "tiers": {
+    "base": "drone_8.glb",
+    "md": "drone_8_md.glb",
+    "hd": "drone_8_hd.glb"
+   },
+   "bytes": {
+    "base": 218916,
+    "md": 355288,
+    "hd": 749056
+   },
+   "animations": [],
+   "source": "tripo"
+  },
+  {
+   "id": "human_citoyen_homme",
+   "category": "personnage",
+   "url": "models/human_citoyen_homme.glb",
+   "tiers": {
+    "base": "human_citoyen_homme.glb",
+    "md": "human_citoyen_homme_md.glb",
+    "hd": "human_citoyen_homme_hd.glb"
+   },
+   "bytes": {
+    "base": 310132,
+    "md": 529080,
+    "hd": 1150080
+   },
+   "animations": [
+    "walk"
+   ],
+   "source": "tripo"
+  },
+  {
+   "id": "people",
+   "category": "personnage",
+   "url": "models/people.glb",
+   "tiers": {
+    "base": "people.glb"
+   },
+   "bytes": {
+    "base": 541984
+   },
+   "animations": [],
+   "source": "autre"
+  },
+  {
+   "id": "pilot_tex",
+   "category": "batiment",
+   "url": "models/pilot_tex.glb",
+   "tiers": {
+    "base": "pilot_tex.glb"
+   },
+   "bytes": {
+    "base": 735588
+   },
+   "animations": [],
+   "source": "autre"
+  },
+  {
+   "id": "pilot_tex_lo",
+   "category": "batiment",
+   "url": "models/pilot_tex_lo.glb",
+   "tiers": {
+    "base": "pilot_tex_lo.glb"
+   },
+   "bytes": {
+    "base": 247076
+   },
+   "animations": [],
+   "source": "autre"
+  },
+  {
+   "id": "prop_bin",
+   "category": "mobilier",
+   "url": "models/prop_bin.glb",
+   "tiers": {
+    "base": "prop_bin.glb",
+    "md": "prop_bin_md.glb",
+    "hd": "prop_bin_hd.glb"
+   },
+   "bytes": {
+    "base": 146860,
+    "md": 276448,
+    "hd": 612528
+   },
+   "animations": [],
+   "source": "tripo"
+  },
+  {
+   "id": "prop_lamp2",
+   "category": "mobilier",
+   "url": "models/prop_lamp2.glb",
+   "tiers": {
+    "base": "prop_lamp2.glb",
+    "md": "prop_lamp2_md.glb",
+    "hd": "prop_lamp2_hd.glb"
+   },
+   "bytes": {
+    "base": 103896,
+    "md": 212656,
+    "hd": 518088
+   },
+   "animations": [],
+   "source": "tripo"
+  },
+  {
+   "id": "tour_verdoyante_lod0",
+   "category": "batiment",
+   "url": "models/tour_verdoyante_lod0.glb",
+   "tiers": {
+    "base": "tour_verdoyante_lod0.glb"
+   },
+   "bytes": {
+    "base": 3046360
+   },
+   "animations": [],
+   "source": "autre"
+  },
+  {
+   "id": "tour_verdoyante_lod1",
+   "category": "batiment",
+   "url": "models/tour_verdoyante_lod1.glb",
+   "tiers": {
+    "base": "tour_verdoyante_lod1.glb"
+   },
+   "bytes": {
+    "base": 562016
+   },
+   "animations": [],
+   "source": "autre"
+  },
+  {
+   "id": "tree_cherry",
+   "category": "arbre",
+   "url": "models/tree_cherry.glb",
+   "tiers": {
+    "base": "tree_cherry.glb",
+    "md": "tree_cherry_md.glb",
+    "hd": "tree_cherry_hd.glb"
+   },
+   "bytes": {
+    "base": 231580,
+    "md": 404972,
+    "hd": 1002492
+   },
+   "animations": [],
+   "source": "autre"
+  },
+  {
+   "id": "tree_conifer",
+   "category": "arbre",
+   "url": "models/tree_conifer.glb",
+   "tiers": {
+    "base": "tree_conifer.glb",
+    "md": "tree_conifer_md.glb",
+    "hd": "tree_conifer_hd.glb"
+   },
+   "bytes": {
+    "base": 181332,
+    "md": 328528,
+    "hd": 817968
+   },
+   "animations": [],
+   "source": "autre"
+  },
+  {
+   "id": "tree_green",
+   "category": "arbre",
+   "url": "models/tree_green.glb",
+   "tiers": {
+    "base": "tree_green.glb",
+    "md": "tree_green_md.glb",
+    "hd": "tree_green_hd.glb"
+   },
+   "bytes": {
+    "base": 181224,
+    "md": 345244,
+    "hd": 916148
+   },
+   "animations": [],
+   "source": "autre"
+  },
+  {
+   "id": "tree_palm",
+   "category": "arbre",
+   "url": "models/tree_palm.glb",
+   "tiers": {
+    "base": "tree_palm.glb",
+    "md": "tree_palm_md.glb",
+    "hd": "tree_palm_hd.glb"
+   },
+   "bytes": {
+    "base": 203848,
+    "md": 368340,
+    "hd": 958452
+   },
+   "animations": [],
+   "source": "autre"
+  },
+  {
+   "id": "tree_red",
+   "category": "arbre",
+   "url": "models/tree_red.glb",
+   "tiers": {
+    "base": "tree_red.glb",
+    "md": "tree_red_md.glb",
+    "hd": "tree_red_hd.glb"
+   },
+   "bytes": {
+    "base": 265532,
+    "md": 425160,
+    "hd": 955560
+   },
+   "animations": [],
+   "source": "autre"
+  },
+  {
+   "id": "tripo2_10",
+   "category": "batiment",
+   "url": "models/tripo2_10.glb",
+   "tiers": {
+    "base": "tripo2_10.glb",
+    "md": "tripo2_10_md.glb",
+    "hd": "tripo2_10_hd.glb"
+   },
+   "bytes": {
+    "base": 348780,
+    "md": 521532,
+    "hd": 1061984
+   },
+   "animations": [],
+   "source": "tripo"
+  },
+  {
+   "id": "tripo2_6",
+   "category": "batiment",
+   "url": "models/tripo2_6.glb",
+   "tiers": {
+    "base": "tripo2_6.glb",
+    "md": "tripo2_6_md.glb",
+    "hd": "tripo2_6_hd.glb"
+   },
+   "bytes": {
+    "base": 328020,
+    "md": 478684,
+    "hd": 924540
+   },
+   "animations": [],
+   "source": "tripo"
+  },
+  {
+   "id": "tripo2_7",
+   "category": "batiment",
+   "url": "models/tripo2_7.glb",
+   "tiers": {
+    "base": "tripo2_7.glb",
+    "md": "tripo2_7_md.glb",
+    "hd": "tripo2_7_hd.glb"
+   },
+   "bytes": {
+    "base": 332808,
+    "md": 501176,
+    "hd": 1003736
+   },
+   "animations": [],
+   "source": "tripo"
+  },
+  {
+   "id": "tripo2_8",
+   "category": "batiment",
+   "url": "models/tripo2_8.glb",
+   "tiers": {
+    "base": "tripo2_8.glb",
+    "md": "tripo2_8_md.glb",
+    "hd": "tripo2_8_hd.glb"
+   },
+   "bytes": {
+    "base": 371016,
+    "md": 531928,
+    "hd": 1017608
+   },
+   "animations": [],
+   "source": "tripo"
+  },
+  {
+   "id": "tripo2_9",
+   "category": "batiment",
+   "url": "models/tripo2_9.glb",
+   "tiers": {
+    "base": "tripo2_9.glb",
+    "md": "tripo2_9_md.glb",
+    "hd": "tripo2_9_hd.glb"
+   },
+   "bytes": {
+    "base": 326496,
+    "md": 489456,
+    "hd": 989864
+   },
+   "animations": [],
+   "source": "tripo"
+  },
+  {
+   "id": "tripo3_h7",
+   "category": "batiment",
+   "url": "models/tripo3_h7.glb",
+   "tiers": {
+    "base": "tripo3_h7.glb",
+    "md": "tripo3_h7_md.glb",
+    "hd": "tripo3_h7_hd.glb"
+   },
+   "bytes": {
+    "base": 347320,
+    "md": 498212,
+    "hd": 957132
+   },
+   "animations": [],
+   "source": "tripo"
+  },
+  {
+   "id": "tripo3_s_factory",
+   "category": "batiment",
+   "url": "models/tripo3_s_factory.glb",
+   "tiers": {
+    "base": "tripo3_s_factory.glb",
+    "md": "tripo3_s_factory_md.glb",
+    "hd": "tripo3_s_factory_hd.glb"
+   },
+   "bytes": {
+    "base": 338840,
+    "md": 505896,
+    "hd": 1086012
+   },
+   "animations": [],
+   "source": "tripo"
+  },
+  {
+   "id": "tripo3_s_office",
+   "category": "batiment",
+   "url": "models/tripo3_s_office.glb",
+   "tiers": {
+    "base": "tripo3_s_office.glb",
+    "md": "tripo3_s_office_md.glb",
+    "hd": "tripo3_s_office_hd.glb"
+   },
+   "bytes": {
+    "base": 452396,
+    "md": 849192,
+    "hd": 2038412
+   },
+   "animations": [],
+   "source": "tripo"
+  },
+  {
+   "id": "tripo3_s_research",
+   "category": "batiment",
+   "url": "models/tripo3_s_research.glb",
+   "tiers": {
+    "base": "tripo3_s_research.glb",
+    "md": "tripo3_s_research_md.glb",
+    "hd": "tripo3_s_research_hd.glb"
+   },
+   "bytes": {
+    "base": 338480,
+    "md": 509728,
+    "hd": 1078976
+   },
+   "animations": [],
+   "source": "tripo"
+  },
+  {
+   "id": "tripo3_t01",
+   "category": "batiment",
+   "url": "models/tripo3_t01.glb",
+   "tiers": {
+    "base": "tripo3_t01.glb",
+    "md": "tripo3_t01_md.glb",
+    "hd": "tripo3_t01_hd.glb"
+   },
+   "bytes": {
+    "base": 426428,
+    "md": 799080,
+    "hd": 1887384
+   },
+   "animations": [],
+   "source": "tripo"
+  },
+  {
+   "id": "tripo3_t06",
+   "category": "batiment",
+   "url": "models/tripo3_t06.glb",
+   "tiers": {
+    "base": "tripo3_t06.glb",
+    "md": "tripo3_t06_md.glb",
+    "hd": "tripo3_t06_hd.glb"
+   },
+   "bytes": {
+    "base": 333656,
+    "md": 514072,
+    "hd": 1127032
+   },
+   "animations": [],
+   "source": "tripo"
+  },
+  {
+   "id": "tripo3_t08",
+   "category": "batiment",
+   "url": "models/tripo3_t08.glb",
+   "tiers": {
+    "base": "tripo3_t08.glb"
+   },
+   "bytes": {
+    "base": 503568
+   },
+   "animations": [],
+   "source": "tripo"
+  },
+  {
+   "id": "tripo3_t09",
+   "category": "batiment",
+   "url": "models/tripo3_t09.glb",
+   "tiers": {
+    "base": "tripo3_t09.glb",
+    "md": "tripo3_t09_md.glb",
+    "hd": "tripo3_t09_hd.glb"
+   },
+   "bytes": {
+    "base": 331280,
+    "md": 500464,
+    "hd": 1069052
+   },
+   "animations": [],
+   "source": "tripo"
+  },
+  {
+   "id": "tripo3_t10",
+   "category": "batiment",
+   "url": "models/tripo3_t10.glb",
+   "tiers": {
+    "base": "tripo3_t10.glb",
+    "md": "tripo3_t10_md.glb",
+    "hd": "tripo3_t10_hd.glb"
+   },
+   "bytes": {
+    "base": 280992,
+    "md": 458912,
+    "hd": 1065660
+   },
+   "animations": [],
+   "source": "tripo"
+  },
+  {
+   "id": "tripo3_t11",
+   "category": "batiment",
+   "url": "models/tripo3_t11.glb",
+   "tiers": {
+    "base": "tripo3_t11.glb"
+   },
+   "bytes": {
+    "base": 433072
+   },
+   "animations": [],
+   "source": "tripo"
+  },
+  {
+   "id": "tripo4_agroalimentaire",
+   "category": "batiment",
+   "url": "models/tripo4_agroalimentaire.glb",
+   "tiers": {
+    "base": "tripo4_agroalimentaire.glb",
+    "md": "tripo4_agroalimentaire_md.glb",
+    "hd": "tripo4_agroalimentaire_hd.glb"
+   },
+   "bytes": {
+    "base": 330528,
+    "md": 499904,
+    "hd": 1020912
+   },
+   "animations": [],
+   "source": "tripo"
+  },
+  {
+   "id": "tripo4_arcologie",
+   "category": "batiment",
+   "url": "models/tripo4_arcologie.glb",
+   "tiers": {
+    "base": "tripo4_arcologie.glb",
+    "md": "tripo4_arcologie_md.glb",
+    "hd": "tripo4_arcologie_hd.glb"
+   },
+   "bytes": {
+    "base": 387824,
+    "md": 552448,
+    "hd": 1083964
+   },
+   "animations": [],
+   "source": "tripo"
+  },
+  {
+   "id": "tripo4_centrale_fusion",
+   "category": "batiment",
+   "url": "models/tripo4_centrale_fusion.glb",
+   "tiers": {
+    "base": "tripo4_centrale_fusion.glb",
+    "md": "tripo4_centrale_fusion_md.glb",
+    "hd": "tripo4_centrale_fusion_hd.glb"
+   },
+   "bytes": {
+    "base": 367744,
+    "md": 541592,
+    "hd": 1091404
+   },
+   "animations": [],
+   "source": "tripo"
+  },
+  {
+   "id": "tripo4_centre_robotique",
+   "category": "batiment",
+   "url": "models/tripo4_centre_robotique.glb",
+   "tiers": {
+    "base": "tripo4_centre_robotique.glb",
+    "md": "tripo4_centre_robotique_md.glb",
+    "hd": "tripo4_centre_robotique_hd.glb"
+   },
+   "bytes": {
+    "base": 340140,
+    "md": 504524,
+    "hd": 1005588
+   },
+   "animations": [],
+   "source": "tripo"
+  },
+  {
+   "id": "tripo4_entrepot2",
+   "category": "batiment",
+   "url": "models/tripo4_entrepot2.glb",
+   "tiers": {
+    "base": "tripo4_entrepot2.glb",
+    "md": "tripo4_entrepot2_md.glb",
+    "hd": "tripo4_entrepot2_hd.glb"
+   },
+   "bytes": {
+    "base": 249388,
+    "md": 397824,
+    "hd": 843328
+   },
+   "animations": [],
+   "source": "tripo"
+  },
+  {
+   "id": "tripo4_ferme_verticale",
+   "category": "batiment",
+   "url": "models/tripo4_ferme_verticale.glb",
+   "tiers": {
+    "base": "tripo4_ferme_verticale.glb",
+    "md": "tripo4_ferme_verticale_md.glb",
+    "hd": "tripo4_ferme_verticale_hd.glb"
+   },
+   "bytes": {
+    "base": 358660,
+    "md": 523572,
+    "hd": 1044364
+   },
+   "animations": [],
+   "source": "tripo"
+  },
+  {
+   "id": "tripo4_hotel_de_ville",
+   "category": "batiment",
+   "url": "models/tripo4_hotel_de_ville.glb",
+   "tiers": {
+    "base": "tripo4_hotel_de_ville.glb",
+    "md": "tripo4_hotel_de_ville_md.glb",
+    "hd": "tripo4_hotel_de_ville_hd.glb"
+   },
+   "bytes": {
+    "base": 374260,
+    "md": 530768,
+    "hd": 1015576
+   },
+   "animations": [],
+   "source": "tripo"
+  },
+  {
+   "id": "tripo4_mine2",
+   "category": "batiment",
+   "url": "models/tripo4_mine2.glb",
+   "tiers": {
+    "base": "tripo4_mine2.glb",
+    "md": "tripo4_mine2_md.glb",
+    "hd": "tripo4_mine2_hd.glb"
+   },
+   "bytes": {
+    "base": 315048,
+    "md": 481080,
+    "hd": 1001840
+   },
+   "animations": [],
+   "source": "tripo"
+  },
+  {
+   "id": "tripo4_parc",
+   "category": "batiment",
+   "url": "models/tripo4_parc.glb",
+   "tiers": {
+    "base": "tripo4_parc.glb",
+    "md": "tripo4_parc_md.glb",
+    "hd": "tripo4_parc_hd.glb"
+   },
+   "bytes": {
+    "base": 421780,
+    "md": 601388,
+    "hd": 1190004
+   },
+   "animations": [],
+   "source": "tripo"
+  },
+  {
+   "id": "tripo4_place_publique",
+   "category": "batiment",
+   "url": "models/tripo4_place_publique.glb",
+   "tiers": {
+    "base": "tripo4_place_publique.glb",
+    "md": "tripo4_place_publique_md.glb",
+    "hd": "tripo4_place_publique_hd.glb"
+   },
+   "bytes": {
+    "base": 309696,
+    "md": 460760,
+    "hd": 919336
+   },
+   "animations": [],
+   "source": "tripo"
+  },
+  {
+   "id": "tripo4_reservoir",
+   "category": "batiment",
+   "url": "models/tripo4_reservoir.glb",
+   "tiers": {
+    "base": "tripo4_reservoir.glb",
+    "md": "tripo4_reservoir_md.glb",
+    "hd": "tripo4_reservoir_hd.glb"
+   },
+   "bytes": {
+    "base": 350456,
+    "md": 503152,
+    "hd": 953616
+   },
+   "animations": [],
+   "source": "tripo"
+  },
+  {
+   "id": "tripo4_station_pompage",
+   "category": "batiment",
+   "url": "models/tripo4_station_pompage.glb",
+   "tiers": {
+    "base": "tripo4_station_pompage.glb",
+    "md": "tripo4_station_pompage_md.glb",
+    "hd": "tripo4_station_pompage_hd.glb"
+   },
+   "bytes": {
+    "base": 412512,
+    "md": 587792,
+    "hd": 1149672
+   },
+   "animations": [],
+   "source": "tripo"
+  },
+  {
+   "id": "tripo4_usine_robotisee",
+   "category": "batiment",
+   "url": "models/tripo4_usine_robotisee.glb",
+   "tiers": {
+    "base": "tripo4_usine_robotisee.glb",
+    "md": "tripo4_usine_robotisee_md.glb",
+    "hd": "tripo4_usine_robotisee_hd.glb"
+   },
+   "bytes": {
+    "base": 340828,
+    "md": 503564,
+    "hd": 1001684
+   },
+   "animations": [],
+   "source": "tripo"
+  },
+  {
+   "id": "tripo_1",
+   "category": "batiment",
+   "url": "models/tripo_1.glb",
+   "tiers": {
+    "base": "tripo_1.glb",
+    "md": "tripo_1_md.glb",
+    "hd": "tripo_1_hd.glb"
+   },
+   "bytes": {
+    "base": 381756,
+    "md": 548812,
+    "hd": 1048540
+   },
+   "animations": [],
+   "source": "tripo"
+  },
+  {
+   "id": "tripo_4",
+   "category": "batiment",
+   "url": "models/tripo_4.glb",
+   "tiers": {
+    "base": "tripo_4.glb",
+    "md": "tripo_4_md.glb",
+    "hd": "tripo_4_hd.glb"
+   },
+   "bytes": {
+    "base": 356300,
+    "md": 514684,
+    "hd": 999188
+   },
+   "animations": [],
+   "source": "tripo"
+  },
+  {
+   "id": "veh_bus",
+   "category": "vehicule",
+   "url": "models/veh_bus.glb",
+   "tiers": {
+    "base": "veh_bus.glb",
+    "md": "veh_bus_md.glb",
+    "hd": "veh_bus_hd.glb"
+   },
+   "bytes": {
+    "base": 183624,
+    "md": 401232,
+    "hd": 974700
+   },
+   "animations": [],
+   "source": "tripo"
+  },
+  {
+   "id": "veh_shuttle",
+   "category": "vehicule",
+   "url": "models/veh_shuttle.glb",
+   "tiers": {
+    "base": "veh_shuttle.glb",
+    "md": "veh_shuttle_md.glb",
+    "hd": "veh_shuttle_hd.glb"
+   },
+   "bytes": {
+    "base": 281148,
+    "md": 544996,
+    "hd": 1254860
+   },
+   "animations": [],
+   "source": "tripo"
+  },
+  {
+   "id": "veh_train",
+   "category": "vehicule",
+   "url": "models/veh_train.glb",
+   "tiers": {
+    "base": "veh_train.glb",
+    "md": "veh_train_md.glb",
+    "hd": "veh_train_hd.glb"
+   },
+   "bytes": {
+    "base": 126280,
+    "md": 253596,
+    "hd": 587100
+   },
+   "animations": [],
+   "source": "tripo"
+  }
+ ]
+}
