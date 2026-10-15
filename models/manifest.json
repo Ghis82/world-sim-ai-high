@@ -1,6 +1,6 @@
 {
  "generated": "2026-10-15",
- "count": 81,
+ "count": 85,
  "models": [
   {
    "id": "car_citadine",
@@ -440,6 +440,26 @@
    "source": "autre"
   },
   {
+   "id": "prop_bar_terrasse",
+   "category": "mobilier",
+   "url": "models/prop_bar_terrasse.glb",
+   "tiers": {
+    "base": "prop_bar_terrasse.glb",
+    "md": "prop_bar_terrasse_md.glb",
+    "hd": "prop_bar_terrasse_hd.glb"
+   },
+   "bytes": {
+    "base": 260356,
+    "md": 533040,
+    "hd": 1353428
+   },
+   "animations": [],
+   "realSize_m": {
+    "l": 9
+   },
+   "source": "tripo"
+  },
+  {
    "id": "prop_bin",
    "category": "mobilier",
    "url": "models/prop_bin.glb",
@@ -454,6 +474,66 @@
     "hd": 612528
    },
    "animations": [],
+   "source": "tripo"
+  },
+  {
+   "id": "prop_boutique",
+   "category": "mobilier",
+   "url": "models/prop_boutique.glb",
+   "tiers": {
+    "base": "prop_boutique.glb",
+    "md": "prop_boutique_md.glb",
+    "hd": "prop_boutique_hd.glb"
+   },
+   "bytes": {
+    "base": 253208,
+    "md": 497280,
+    "hd": 1179128
+   },
+   "animations": [],
+   "realSize_m": {
+    "l": 6
+   },
+   "source": "tripo"
+  },
+  {
+   "id": "prop_buvette",
+   "category": "mobilier",
+   "url": "models/prop_buvette.glb",
+   "tiers": {
+    "base": "prop_buvette.glb",
+    "md": "prop_buvette_md.glb",
+    "hd": "prop_buvette_hd.glb"
+   },
+   "bytes": {
+    "base": 280556,
+    "md": 567380,
+    "hd": 1377500
+   },
+   "animations": [],
+   "realSize_m": {
+    "l": 4
+   },
+   "source": "tripo"
+  },
+  {
+   "id": "prop_fontaine",
+   "category": "mobilier",
+   "url": "models/prop_fontaine.glb",
+   "tiers": {
+    "base": "prop_fontaine.glb",
+    "md": "prop_fontaine_md.glb",
+    "hd": "prop_fontaine_hd.glb"
+   },
+   "bytes": {
+    "base": 233576,
+    "md": 444012,
+    "hd": 1064160
+   },
+   "animations": [],
+   "realSize_m": {
+    "l": 7
+   },
    "source": "tripo"
   },
   {
