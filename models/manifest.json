@@ -1,20 +1,7 @@
 {
  "generated": "2026-10-15",
- "count": 94,
+ "count": 95,
  "models": [
-  {
-   "id": "_arco_old",
-   "category": "batiment",
-   "url": "models/_arco_old.glb",
-   "tiers": {
-    "base": "_arco_old.glb"
-   },
-   "bytes": {
-    "base": 1083964
-   },
-   "animations": [],
-   "source": "autre"
-  },
   {
    "id": "car_citadine",
    "category": "vehicule",
@@ -1126,9 +1113,22 @@
     "hd": "tripo4_ferme_verticale_hd.glb"
    },
    "bytes": {
-    "base": 358660,
-    "md": 523572,
-    "hd": 1044364
+    "base": 431540,
+    "md": 734408,
+    "hd": 1663868
+   },
+   "animations": [],
+   "source": "tripo"
+  },
+  {
+   "id": "tripo4_ferme_verticale_xhd",
+   "category": "batiment",
+   "url": "models/tripo4_ferme_verticale_xhd.glb",
+   "tiers": {
+    "base": "tripo4_ferme_verticale_xhd.glb"
+   },
+   "bytes": {
+    "base": 3311116
    },
    "animations": [],
    "source": "tripo"
@@ -1143,9 +1143,22 @@
     "hd": "tripo4_hotel_de_ville_hd.glb"
    },
    "bytes": {
-    "base": 374260,
-    "md": 530768,
-    "hd": 1015576
+    "base": 453392,
+    "md": 753912,
+    "hd": 1612168
+   },
+   "animations": [],
+   "source": "tripo"
+  },
+  {
+   "id": "tripo4_hotel_de_ville_xhd",
+   "category": "batiment",
+   "url": "models/tripo4_hotel_de_ville_xhd.glb",
+   "tiers": {
+    "base": "tripo4_hotel_de_ville_xhd.glb"
+   },
+   "bytes": {
+    "base": 3178444
    },
    "animations": [],
    "source": "tripo"
