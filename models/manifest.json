@@ -1,6 +1,6 @@
 {
- "generated": "2026-10-14",
- "count": 76,
+ "generated": "2026-10-15",
+ "count": 79,
  "models": [
   {
    "id": "car_citadine",
@@ -1364,6 +1364,91 @@
    "animations": [],
    "realSize_m": {
     "l": 1.9
+   },
+   "variants": [
+    "base",
+    "sombre",
+    "rouge",
+    "bleu",
+    "jaune",
+    "vert"
+   ],
+   "source": "tripo"
+  },
+  {
+   "id": "veh_rider_moto",
+   "category": "vehicule",
+   "url": "models/veh_rider_moto.glb",
+   "tiers": {
+    "base": "veh_rider_moto.glb",
+    "md": "veh_rider_moto_md.glb",
+    "hd": "veh_rider_moto_hd.glb"
+   },
+   "bytes": {
+    "base": 307812,
+    "md": 672428,
+    "hd": 1729052
+   },
+   "animations": [],
+   "realSize_m": {
+    "l": 2.1
+   },
+   "variants": [
+    "base",
+    "sombre",
+    "rouge",
+    "bleu",
+    "jaune",
+    "vert"
+   ],
+   "source": "tripo"
+  },
+  {
+   "id": "veh_rider_scooter",
+   "category": "vehicule",
+   "url": "models/veh_rider_scooter.glb",
+   "tiers": {
+    "base": "veh_rider_scooter.glb",
+    "md": "veh_rider_scooter_md.glb",
+    "hd": "veh_rider_scooter_hd.glb"
+   },
+   "bytes": {
+    "base": 300588,
+    "md": 636796,
+    "hd": 1644348
+   },
+   "animations": [],
+   "realSize_m": {
+    "l": 2
+   },
+   "variants": [
+    "base",
+    "sombre",
+    "rouge",
+    "bleu",
+    "jaune",
+    "vert"
+   ],
+   "source": "tripo"
+  },
+  {
+   "id": "veh_rider_trottinette",
+   "category": "vehicule",
+   "url": "models/veh_rider_trottinette.glb",
+   "tiers": {
+    "base": "veh_rider_trottinette.glb",
+    "md": "veh_rider_trottinette_md.glb",
+    "hd": "veh_rider_trottinette_hd.glb"
+   },
+   "bytes": {
+    "base": 252632,
+    "md": 522920,
+    "hd": 1303736
+   },
+   "animations": [],
+   "realSize_m": {
+    "l": 1.15,
+    "h": 1.85
    },
    "variants": [
     "base",
