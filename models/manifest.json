@@ -1,7 +1,20 @@
 {
  "generated": "2026-10-15",
- "count": 85,
+ "count": 94,
  "models": [
+  {
+   "id": "_arco_old",
+   "category": "batiment",
+   "url": "models/_arco_old.glb",
+   "tiers": {
+    "base": "_arco_old.glb"
+   },
+   "bytes": {
+    "base": 1083964
+   },
+   "animations": [],
+   "source": "autre"
+  },
   {
    "id": "car_citadine",
    "category": "vehicule",
@@ -440,6 +453,23 @@
    "source": "autre"
   },
   {
+   "id": "prop_bar",
+   "category": "mobilier",
+   "url": "models/prop_bar.glb",
+   "tiers": {
+    "base": "prop_bar.glb",
+    "md": "prop_bar_md.glb",
+    "hd": "prop_bar_hd.glb"
+   },
+   "bytes": {
+    "base": 260356,
+    "md": 533040,
+    "hd": 1353428
+   },
+   "animations": [],
+   "source": "tripo"
+  },
+  {
    "id": "prop_bar_terrasse",
    "category": "mobilier",
    "url": "models/prop_bar_terrasse.glb",
@@ -597,6 +627,23 @@
    "source": "autre"
   },
   {
+   "id": "tree_cherry2",
+   "category": "arbre",
+   "url": "models/tree_cherry2.glb",
+   "tiers": {
+    "base": "tree_cherry2.glb",
+    "md": "tree_cherry2_md.glb",
+    "hd": "tree_cherry2_hd.glb"
+   },
+   "bytes": {
+    "base": 252524,
+    "md": 428788,
+    "hd": 1034336
+   },
+   "animations": [],
+   "source": "autre"
+  },
+  {
    "id": "tree_conifer",
    "category": "arbre",
    "url": "models/tree_conifer.glb",
@@ -660,6 +707,40 @@
     "base": 265532,
     "md": 425160,
     "hd": 955560
+   },
+   "animations": [],
+   "source": "autre"
+  },
+  {
+   "id": "tree_red2",
+   "category": "arbre",
+   "url": "models/tree_red2.glb",
+   "tiers": {
+    "base": "tree_red2.glb",
+    "md": "tree_red2_md.glb",
+    "hd": "tree_red2_hd.glb"
+   },
+   "bytes": {
+    "base": 300668,
+    "md": 462956,
+    "hd": 998084
+   },
+   "animations": [],
+   "source": "autre"
+  },
+  {
+   "id": "tree_street",
+   "category": "arbre",
+   "url": "models/tree_street.glb",
+   "tiers": {
+    "base": "tree_street.glb",
+    "md": "tree_street_md.glb",
+    "hd": "tree_street_hd.glb"
+   },
+   "bytes": {
+    "base": 194340,
+    "md": 345200,
+    "hd": 857480
    },
    "animations": [],
    "source": "autre"
@@ -801,6 +882,19 @@
    "source": "tripo"
   },
   {
+   "id": "tripo3_s_office_xhd",
+   "category": "batiment",
+   "url": "models/tripo3_s_office_xhd.glb",
+   "tiers": {
+    "base": "tripo3_s_office_xhd.glb"
+   },
+   "bytes": {
+    "base": 4172804
+   },
+   "animations": [],
+   "source": "tripo"
+  },
+  {
    "id": "tripo3_s_research",
    "category": "batiment",
    "url": "models/tripo3_s_research.glb",
@@ -830,6 +924,19 @@
     "base": 426428,
     "md": 799080,
     "hd": 1887384
+   },
+   "animations": [],
+   "source": "tripo"
+  },
+  {
+   "id": "tripo3_t01_xhd",
+   "category": "batiment",
+   "url": "models/tripo3_t01_xhd.glb",
+   "tiers": {
+    "base": "tripo3_t01_xhd.glb"
+   },
+   "bytes": {
+    "base": 3947512
    },
    "animations": [],
    "source": "tripo"
@@ -938,9 +1045,22 @@
     "hd": "tripo4_arcologie_hd.glb"
    },
    "bytes": {
-    "base": 387824,
-    "md": 552448,
-    "hd": 1083964
+    "base": 462492,
+    "md": 744092,
+    "hd": 1654748
+   },
+   "animations": [],
+   "source": "tripo"
+  },
+  {
+   "id": "tripo4_arcologie_xhd",
+   "category": "batiment",
+   "url": "models/tripo4_arcologie_xhd.glb",
+   "tiers": {
+    "base": "tripo4_arcologie_xhd.glb"
+   },
+   "bytes": {
+    "base": 3399580
    },
    "animations": [],
    "source": "tripo"
@@ -1340,6 +1460,29 @@
    "realSize_m": {
     "l": 2.4
    },
+   "variants": [
+    "base",
+    "sec",
+    "printemps",
+    "pourpre"
+   ],
+   "source": "tripo"
+  },
+  {
+   "id": "veg_orne",
+   "category": "vegetation",
+   "url": "models/veg_orne.glb",
+   "tiers": {
+    "base": "veg_orne.glb",
+    "md": "veg_orne_md.glb",
+    "hd": "veg_orne_hd.glb"
+   },
+   "bytes": {
+    "base": 312960,
+    "md": 702296,
+    "hd": 1917424
+   },
+   "animations": [],
    "variants": [
     "base",
     "sec",
