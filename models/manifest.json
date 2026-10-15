@@ -1,6 +1,6 @@
 {
  "generated": "2026-10-15",
- "count": 79,
+ "count": 81,
  "models": [
   {
    "id": "car_citadine",
@@ -1528,6 +1528,66 @@
     "hd": 587100
    },
    "animations": [],
+   "variants": [
+    "base",
+    "sombre",
+    "rouge",
+    "bleu",
+    "jaune",
+    "vert"
+   ],
+   "source": "tripo"
+  },
+  {
+   "id": "veh_tram_a",
+   "category": "vehicule",
+   "url": "models/veh_tram_a.glb",
+   "tiers": {
+    "base": "veh_tram_a.glb",
+    "md": "veh_tram_a_md.glb",
+    "hd": "veh_tram_a_hd.glb"
+   },
+   "bytes": {
+    "base": 277020,
+    "md": 613612,
+    "hd": 1592484
+   },
+   "animations": [],
+   "realSize_m": {
+    "l": 27,
+    "w": 2.65,
+    "h": 3.5
+   },
+   "variants": [
+    "base",
+    "sombre",
+    "rouge",
+    "bleu",
+    "jaune",
+    "vert"
+   ],
+   "source": "tripo"
+  },
+  {
+   "id": "veh_tram_b",
+   "category": "vehicule",
+   "url": "models/veh_tram_b.glb",
+   "tiers": {
+    "base": "veh_tram_b.glb",
+    "md": "veh_tram_b_md.glb",
+    "hd": "veh_tram_b_hd.glb"
+   },
+   "bytes": {
+    "base": 229492,
+    "md": 469128,
+    "hd": 1110960
+   },
+   "animations": [],
+   "realSize_m": {
+    "l": 27,
+    "w": 2.65,
+    "h": 3.5
+   },
    "variants": [
     "base",
     "sombre",
