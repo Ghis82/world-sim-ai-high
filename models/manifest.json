@@ -1,6 +1,6 @@
 {
  "generated": "2026-10-14",
- "count": 75,
+ "count": 76,
  "models": [
   {
    "id": "car_citadine",
@@ -1103,6 +1103,32 @@
    "animations": [],
    "realSize_m": {
     "h": 1.3
+   },
+   "variants": [
+    "base",
+    "sec",
+    "printemps",
+    "pourpre"
+   ],
+   "source": "tripo"
+  },
+  {
+   "id": "veg_bordure",
+   "category": "vegetation",
+   "url": "models/veg_bordure.glb",
+   "tiers": {
+    "base": "veg_bordure.glb",
+    "md": "veg_bordure_md.glb",
+    "hd": "veg_bordure_hd.glb"
+   },
+   "bytes": {
+    "base": 320880,
+    "md": 624972,
+    "hd": 1571632
+   },
+   "animations": [],
+   "realSize_m": {
+    "l": 4
    },
    "variants": [
     "base",
